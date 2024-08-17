@@ -16,6 +16,7 @@ int main()
 	    test[i] += test[i - 1];
 	    cout << test[i] << endl;
 	}
+	cout << "changed" << endl;
 	return 0;
 }
 
