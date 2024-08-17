@@ -1,8 +1,8 @@
 #include<stdio.h>
 #define N 10
+void maxmin(int arr[],int *pt1,int *pt2,int n);
 int main()
 {
-	void maxmin(int arr[],int *pt1,int *pt2,int n);
 	int array[N]={10,7,19,29,4,0,7,35,-16,21},*p1,*p2,a,b;
 	p1=&a;p2=&b;
 	maxmin(array,p1,p2,N);
